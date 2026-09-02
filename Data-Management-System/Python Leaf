@@ -1,0 +1,53 @@
+# official_pin = 1989
+# pin=int(input('Enter your pin: ')
+# if pin==official_pin:
+#  print('Login successful')
+# else:
+#  print('Invalid pin')
+
+#  for i in range(1, 11):
+#     if i % 2 != 0:
+#         print(f"{i} is odd")
+
+#         For even in range(0,21,2):#[1,3,5,7,..,20]
+#         print(odd)
+
+# fruits = ['apple', 'banana', 'kiwi', 'mango', 'apple']
+
+# count=0
+# for x in fruits:
+#     print(f'(count): {x}')
+#     count +=1
+    
+# For odd in range(0,21,2): #[1,3,...20]
+# print(odd)
+# for i in range(5):
+#     print(i)
+
+# #     for i in range(5):
+# #     print('Hello')
+
+# #     for i in range(5):
+#         print('Hello')
+
+#         for i in range(1, 6):
+#     print(i)
+
+for i in range (1,7):
+ print(i) 
+
+ for number in range(1, 11):
+    if number % 2 == 0:
+        print(number)
+
+for number in range(1,22):
+ if number %2==0:
+   print(number)
+
+   for number in range(1, 11):
+    if number % 2 != 0:
+        print(number)
+
+        for number in range(1,22):
+          if number%2 !=0:
+            print(number)
