@@ -185,12 +185,24 @@
 #     print(f'Your current balance is Rs.{balance}')
 #    else:
 #   print('Access denied')
-    official_pin= 1989
-   pin=int(input('Enter your pin: '))
-   if pin==official_pin:
+#     official_pin= 1989
+#    pin=int(input('Enter your pin: '))
+#    if pin==official_pin:
+#     print('Login successful')
+#    else:
+#     print('Access denied')
+
+
+
+official_pin = 1989
+pin = int(input('Enter your pin'))
+
+if pin == official_pin:
     print('Login successful')
-   else:
-    print('Access denied')
+else:
+    print('Login Denied')
+
+    
 
  
    
